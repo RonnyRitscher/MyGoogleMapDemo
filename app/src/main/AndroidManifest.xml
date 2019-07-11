@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="de.proneucon.mygooglemapdemo">
+    package="de.ronnyritscher.mygooglemapdemo">
 
     <!--
          The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
@@ -11,9 +11,9 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_ritscherapplogo"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_ritscherapplogo_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
@@ -30,13 +30,13 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
+            android:name="de.ronnyritscher.mygooglemapdemo.MapsActivity"
             android:label="@string/title_activity_maps">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="de.proneucon.mygooglemapdemo.MainActivity" />
+                android:value="de.ronnyritscher.mygooglemapdemo.MainActivity" />
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name="de.ronnyritscher.mygooglemapdemo.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

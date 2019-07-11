@@ -1,4 +1,4 @@
-package de.proneucon.mygooglemapdemo;
+package de.ronnyritscher.mygooglemapdemo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;

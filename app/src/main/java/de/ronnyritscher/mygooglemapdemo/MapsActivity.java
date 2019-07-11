@@ -1,4 +1,4 @@
-package de.proneucon.mygooglemapdemo;
+package de.ronnyritscher.mygooglemapdemo;
 
 import android.support.v4.app.FragmentActivity;
 import android.os.Bundle;
